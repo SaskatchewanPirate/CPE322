@@ -9,3 +9,5 @@
 7. Submit the clickable link to the GitHub repo via Canvas.  
 ### Program Outcome 7: (Ability to Learn)
 1.2 (Tools) Students will be able to efficiently locate information describing and assessing software tools for exploring the mathematical algorithms and techniques that are embedded in a student project.  
+## Submission
+https://github.com/SaskatchewanPirate/CPE322
