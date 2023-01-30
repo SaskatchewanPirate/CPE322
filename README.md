@@ -9,7 +9,7 @@ Professor Lu's GitHub: https://github.com/kevinwlu
 *Complete lecture slides are also available on the course website at the time of this commit.*  
 
 ### Progress Reports
-[2023-01-30] Completed Lab 1 on installing GHDL and GTKWave, running the Half Adder example, running the D Flip-Flop example,  running the 4-to-1 Multiplexer example, and documenting the results on GitHub. Completed Assignment 1 on creating a Google Site for CPE322 which includes Progress Reports, coursework information, and other useful resources.  
+[2023-01-30]<> (Completed Lab 1 on installing GHDL and GTKWave, running the Half Adder example, running the D Flip-Flop example,  running the 4-to-1 Multiplexer example, and documenting the results on GitHub.) Completed Assignment 1 on creating a Google Site for CPE322 which includes Progress Reports, coursework information, and other useful resources.  
 [2023-01-25] Completed Assignment 0 on creating a GitHub repository and creating and stylizing a README.md file using Markdown.  
 
 ### Course Schedule
