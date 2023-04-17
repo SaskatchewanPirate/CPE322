@@ -1,0 +1,12 @@
+# Lesson 6: Abstraction and Modeling
+- In abstraction, one tries to generate as many different solution categories as possible
+- A model is a purposeful representation of a process, object, or system
+- Models help organize thoughts, data, and knowledge
+- All models are approximations because of simplifying assumptions
+- Engineers must be cognizant of all assumptions made in developing the model
+- Engineers must determine the resolution (the minimum level of detail) needed in the model for it to properly describe the system under consideration
+- A model should never include more than the essential details needed to properly describe a process or system (Occam's razor)
+- Models can be abstract or concrete and may be iconic, analogical, or symbolic
+- System models can be deterministic or stochastic, whereas process models can be descriptive or prescriptive
+- Freehand pictorial, orthographic, and other sketches can be used to describe and develop design concepts
+- A wide variety of charts can be used to compare and analyze different kinds of data
