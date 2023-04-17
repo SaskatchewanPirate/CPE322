@@ -1,0 +1,14 @@
+# Lesson 11: Implementation
+- Poor implementation of a design concept can lead to failure or tragedy
+- Determine the the processes, materials, and equipment that will be used in fabrication, assembly, and other manufacturing operations when developing the design concept itself
+- Materials chosen for an engineering design must match the performance, environmental, processing, and financial requirements of the product or system
+- Design for X (DFX) provides valuable guidelines for developing successful products
+- DFX seeks to achieve:
+  - Superior, or at least satisfactory, performance of all design functions
+  - Minimum costs, maintenance, and repair
+  - High levels of quality and reliability
+  - Fastest time to market
+  - Fundamentally safe products and processes
+  - Designs that can be updated and upgraded as necessary
+- Apply basic principles and general guidelines for effective fabrication
+- Consider important aspects of packaging
