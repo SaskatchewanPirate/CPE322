@@ -1,0 +1,11 @@
+# Lesson 8: Ethics and Product Liability
+- Codes of ethics provide guidelines for dealing with various types of professional dilemmas
+- The ancient code of Hammurabi for builders and the United States marine safety code are early guidelines for acceptable engineering practice
+- Professional engineers must follow specific legal obligations and requirements
+- The NSPE Code of Ethics can be helpful if one is confronted by an ethical choice or dilemma
+- Design engineers must be familiar with product liability law to understand the legal boundaries for socially acceptable products
+- Manufacturing defects in a product is localized to a single unit, whereas warning and design defects affect the entire product population
+- Negligence, strict liability and implied warranty, and express warranty and misrepresentation are the three major categories of product liability lawsuits
+- Privity no longer serves to protect manufacturers from lawsuits
+- One must design against foreseeable uses and misuses of a product
+- Possible changes in a product during its useful lifetime must be anticipated in the design process
