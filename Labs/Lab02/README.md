@@ -4,7 +4,7 @@
 - Go to the IoT [repository](https://github.com/kevinwlu/iot)
 - Study Lessons 1 and 2
 - Open a terminal
-#### Code modified for Windows Terminal:
+#### Code modified for Windows Command Prompt:
 ```sh
 $ hostname
 $ env
