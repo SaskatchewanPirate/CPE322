@@ -71,8 +71,8 @@ adder_tb.vhdl:54:5:@8ns(assertion note): end of test
 $ gtkwave adder.vcd
 ```
 
-### [Flip-flop:](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
-#### [D Flip-Flop](https://electronicstopper.blogspot.com/2017/07/d-flip-flop-in-vhdl-with-testbench.html)
+#### [Flip-flop:](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
+##### [D Flip-Flop](https://electronicstopper.blogspot.com/2017/07/d-flip-flop-in-vhdl-with-testbench.html)
 ```$ ghdl -a dff.vhdl
 $ ghdl -a dff_tb.vhdl
 $ ghdl -e dff_tb
