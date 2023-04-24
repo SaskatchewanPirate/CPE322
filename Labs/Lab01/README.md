@@ -51,6 +51,7 @@ $ ghdl -e hello_world
 $ ghdl -r hello_world
 Hello world!
 ``` 
+![Hello World Terminal](CPE322Lab01HelloWorld.png)
 
 #### Half [Adder](https://en.wikipedia.org/wiki/Adder_(electronics))
 ```$ ghdl -a ha.vhdl
@@ -60,6 +61,8 @@ $ ghdl -r ha_tb --vcd=ha.vcd
 ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
 $ gtkwave ha.vcd
 ```
+![Half Adder Terminal](CPE322Lab01HalfAdder.png)
+![Half Adder GTKWave](CPE322Lab01HalfAdderGTKWave.png)
 
 #### [Full Adder](http://ghdl.free.fr/ghdl/A-full-adder.html)
 ```sh
