@@ -52,7 +52,7 @@ $ ghdl -r hello_world
 Hello world!
 ``` 
 
-#### Half [Adder](https://en.wikipedia.org/wiki/Adder_(electronics)) (Code from Prof. Lu's repo)
+#### Half [Adder](https://en.wikipedia.org/wiki/Adder_(electronics))
 ```$ ghdl -a ha.vhdl
 $ ghdl -a ha_tb.vhdl
 $ ghdl -e ha_tb
@@ -72,7 +72,7 @@ $ gtkwave adder.vcd
 ```
 
 ### [Flip-flop:](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
-#### [D Flip-Flop](https://electronicstopper.blogspot.com/2017/07/d-flip-flop-in-vhdl-with-testbench.html) (Code from Prof. Lu's repo)
+#### [D Flip-Flop](https://electronicstopper.blogspot.com/2017/07/d-flip-flop-in-vhdl-with-testbench.html)
 ```$ ghdl -a dff.vhdl
 $ ghdl -a dff_tb.vhdl
 $ ghdl -e dff_tb
