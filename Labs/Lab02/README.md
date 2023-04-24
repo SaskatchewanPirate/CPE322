@@ -5,7 +5,7 @@
 - Study Lessons 1 and 2
 - Open a terminal
 ```sh
-$hostname
+$ hostname
 $ env
 $ ps
 $ pwd
