@@ -94,7 +94,7 @@ $ sudo reboot
 
 ### 2. Serial [loopback](https://en.wikipedia.org/wiki/Loopback) test
 
-![serial.png](https://github.com/kevinwlu/iot/blob/master/lesson2/serial.png)
+![serial.png](serial.png)
 
 * Connect two serial pins (the 4th and 5th pins from the left of the top row) using one [jump wires](https://en.wikipedia.org/wiki/Jump_wire)
 * Run [APT](https://en.wikipedia.org/wiki/APT_(software)) to install [Minicom](https://en.wikipedia.org/wiki/Minicom)
@@ -139,7 +139,7 @@ control-a x
 
 ## Lab 2B: Serial peripheral interface (SPI)
 
-![spi.png](https://github.com/kevinwlu/iot/blob/master/lesson2/spi.png)
+![spi.png](spi.png)
 
 * Connect the SPI MOSI and MISO pins (the 10th and 11th pins from the left of the bottom row) using one jump wire
 * Enter the following commands on a Terminal for [spidev-test](https://github.com/torvalds/linux/blob/master/tools/spi/spidev_test.c)
@@ -178,13 +178,13 @@ max speed: 500000 Hz (500 KHz)
 
 ## Lab 2C: Breadboard
 
-![breadboard.jpg](https://github.com/kevinwlu/iot/blob/master/lesson2/breadboard.jpg)
+![breadboard.jpg](breadboard.jpg)
 
 ### 1. Shorter lead (−) of the LED to a 330-Ω resistor then to Ground, the 3rd pin from the left of the top row
 
 ### 2. Longer lead (+) of the LED to GPIO 18, the 6th pin from the left of the top row
 
-![led_bb.png](https://github.com/kevinwlu/iot/blob/master/lesson2/led_bb.png)
+![led_bb.png](led_bb.png)
 
 ## Lab 2D: Light-emitting diode (LED)
 
@@ -208,7 +208,7 @@ root@raspberypi:/home/pi# exit
 * Test I2C addresses with the preinstalled [i2c-tools](https://i2c.wiki.kernel.org/index.php/I2C_Tools)
 * Connect an I2C device [ADXL345](https://learn.adafruit.com/adxl345-digital-accelerometer) (3-axis accelerometer) to 3V3, GND, SDA, and SCL of a Raspberry Pi with two 4.7k&Omega; pull-up resistors
 
-![adxl345_bb.png](https://github.com/kevinwlu/iot/blob/master/lesson2/adxl345_bb.png)
+![adxl345_bb.png](adxl345_bb.png)
 
 ```sh
 $ sudo i2cdetect -y 1
@@ -224,7 +224,7 @@ $ sudo i2cdetect -y 1
 ```
 * Connect an I2C device BMP180 or [BMP280](https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout) (barometric pressure sensor) to 3V3, GND, SDA, and SCL of a Raspberry Pi
 
-![bmp180_bb.png](https://github.com/kevinwlu/iot/blob/master/lesson2/bmp180_bb.png)
+![bmp180_bb.png](bmp180_bb.png)
 
 ```sh
 $ sudo i2cdetect -y 1
@@ -248,7 +248,7 @@ $ sudo i2cdetect -y 1
 * VDD to 3.3V or 5V
 * DQ to GPIO 4 (the 4th pin from the left of the bottom row) and through a 4.7k&Omega; resistor to VDD
 
-![1-wire_bb.png](https://github.com/kevinwlu/iot/blob/master/lesson2/1-wire_bb.png)
+![1-wire_bb.png](1-wire_bb.png)
 
 ```sh
 pi@raspberrypi:~ $ sudo modprobe w1-gpio
