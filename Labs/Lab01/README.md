@@ -99,7 +99,7 @@ $ ghdl -r --ieee=synopsys sr_ff_tb --stop-time=100ns --vcd=sr_ff.vcd
 ```
 
 #### [Multiplexer:](https://en.wikipedia.org/wiki/Multiplexer)
-##### [4-to-1 Multiplexer](https://allaboutfpga.com/vhdl-4-to-1-mux-multiplexer) (Code from Prof. Lu's repo)
+##### [4-to-1 Multiplexer](https://allaboutfpga.com/vhdl-4-to-1-mux-multiplexer)
 ```$ ghdl -a mux.vhdl
 $ ghdl -a mux_tb.vhdl
 $ ghdl -e mux_tb
