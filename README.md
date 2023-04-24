@@ -10,7 +10,7 @@
 *Assignment instructions and submitted group assignments are available [here](Assignments).*  
 
 ### Progress Reports
-[2023-04-24] Completed Lab 3 on executing Python files from the terminal and documented the [results](Labs/Lab03/Results.md) on GitHub.
+[2023-04-24] Completed Lab 3 on executing Python files from the terminal and documented the [results](Labs/Lab03/Results.md) on GitHub.  
 [2023-04-24] Completed Lab 2 on using the command line and monitoring the network ports, and documented the [results](Labs/Lab02/Results.md) on GitHub.  
 [2023-04-24] Completed Lab 1 on running several example files using GHDL and GTKWave and documented the [results](Labs/Lab01/Results.md) on GitHub.  
 [2023-01-25] Completed Assignment 0 on creating a GitHub repository and creating and stylizing a [README.md](README.md) file using Markdown.  
