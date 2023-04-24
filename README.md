@@ -10,7 +10,7 @@
 *Assignment instructions and submitted group assignments are available [here](Assignments).*  
 
 ### Progress Reports
-<!---[2023-MM-DD] Completed Lab 1 on installing GHDL and GTKWave, running the Half Adder example, running the D Flip-Flop example,  running the 4-to-1 Multiplexer example, and documenting the results on GitHub.--->
+[2023-04-24] Completed Lab 1 on installing GHDL and GTKWave, running several example files, and documenting the [results](Lab01/Results.md) on GitHub.
 [2023-01-25] Completed Assignment 0 on creating a GitHub repository and creating and stylizing a README.md file using Markdown.  
 
 ### Course Schedule
