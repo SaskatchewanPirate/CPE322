@@ -1,9 +1,9 @@
 # Lab 2: Command Line
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
-- Go to the IoT [repository](https://github.com/kevinwlu/iot)
-- Study Lessons 1 and 2
-- Open a terminal
+1. Go to the IoT [repository](https://github.com/kevinwlu/iot)
+2. Study Lessons 1 and 2
+3. Open a terminal and run the commands specified below
 #### Code modified for Windows Command Prompt:
 ```sh
 $ hostname
