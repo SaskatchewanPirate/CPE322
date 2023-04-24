@@ -1,5 +1,6 @@
 # Lab 1: GHDL and GTKWave
-## Instructions
+## From Prof. Lu's GitHub Repo:
+### Instructions
 1. Go to the [GitHub repository](https://github.com/kevinwlu/dsd) of Digital System Design (DSD)  
     - Study VHDL and GHDL  
 2. Go to the [GHDL](https://github.com/kevinwlu/dsd/tree/master/ghdl) folder  
@@ -9,7 +10,7 @@
     - Document the results on your GitHub repository  
 3. Exploration: [Icarus Verilog](https://en.wikipedia.org/wiki/Icarus_Verilog)  
 
-## [Getting Started With VHDL on Windows (GHDL & GTKWave)](https://www.youtube.com/watch?v=H2GyAIYwZbw) by Nerdy Dave
+### [Getting Started With VHDL on Windows (GHDL & GTKWave)](https://www.youtube.com/watch?v=H2GyAIYwZbw) by Nerdy Dave
 * Download [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B) Installer: [Current Version](https://notepad-plus-plus.org/)
 * Download [GHDL](https://github.com/ghdl/ghdl/releases)
   * ghdl-0.37-mingw32-mcode.zip
@@ -24,7 +25,7 @@
   * C:\eda\ghdl\bin
   * C:\eda\gtkwave\bin  
 
-## [GHDL Quick Start Guide](https://ghdl.github.io/ghdl/quick_start/index.html)
+### [GHDL Quick Start Guide](https://ghdl.github.io/ghdl/quick_start/index.html)
 
 * Open a [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) on macOS or GNU/Linux, or [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal) on Windows
 * Clone 'dsd' repository, make and change directory to a new 'vhdl' directory, copy vhdl code to the current directory '.'
