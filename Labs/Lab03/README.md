@@ -1,8 +1,9 @@
 # Lab 3: Python
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
-- Study the GitHub repository Lesson 3 labs
-- Install required Python packages such as jdcal, astral, and geopy
+1. Study the GitHub repository Lesson 3 labs
+2. Install required Python packages such as jdcal, astral, and geopy
+3. Run the shell commands as specified later
 #### To install required Python package:
 ```sh
 $ pip install jdcal
