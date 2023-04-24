@@ -3,11 +3,27 @@
 1. Go to the [GitHub repository](https://github.com/kevinwlu/dsd) of Digital System Design (DSD)  
     - Study VHDL and GHDL  
 2. Go to the [GHDL](https://github.com/kevinwlu/dsd/tree/master/ghdl) folder  
-    - Install GHDL and GTKWave  
+    - Install GHDL and GTKWave (see Install Instructions Below)  
     - Run the Half Adder example  
     - Run another example such as D Flip-Flop or 4-to-1 Multiplexer  
     - Document the results on your GitHub repository  
-3. Exploration: [Icarus Verilog](https://en.wikipedia.org/wiki/Icarus_Verilog)
+3. Exploration: [Icarus Verilog](https://en.wikipedia.org/wiki/Icarus_Verilog)  
+
+## [Getting Started With VHDL on Windows (GHDL & GTKWave)](https://www.youtube.com/watch?v=H2GyAIYwZbw) by Nerdy Dave
+* Download [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B) Installer: [Current Version](https://notepad-plus-plus.org/)
+* Download [GHDL](https://github.com/ghdl/ghdl/releases)
+  * ghdl-0.37-mingw32-mcode.zip
+  * Extract All... > ghdl-0.37-mingw32-mcode
+* Download [GTKWave](https://sourceforge.net/projects/gtkwave/files)
+  * gtkwave-3.3.100-bin-win32.zip
+  * Extract All... > gtkwave-3.3.100-bin-win32
+* File Explorer > This PC > OS (C:) > New folder > eda
+  * Rename the subfolder "This PC > Downloads > ghdl-0.37-mingw32-mcode > GHDL > 0.37-mingw32-mcode" as ghdl and move it to C:\eda
+  * Move the subfolder "This PC > Downloads > gtkwave-3.3.100-bin-win32 > gtkwave" to C:\eda
+* Edit Environment Variables > Path > New
+  * C:\eda\ghdl\bin
+  * C:\eda\gtkwave\bin
+ 
 ### Half [Adder](https://en.wikipedia.org/wiki/Adder_(electronics)) (Code from Prof. Lu's repo)
 ```$ ghdl -a ha.vhdl
 $ ghdl -a ha_tb.vhdl
