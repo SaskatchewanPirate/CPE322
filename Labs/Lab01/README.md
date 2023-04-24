@@ -7,7 +7,7 @@
     - Install GHDL and GTKWave (see Install Instructions Below)  
     - Run the Half Adder example  
     - Run another example such as D Flip-Flop or 4-to-1 Multiplexer  
-    - Document the results on your GitHub repository  
+    - [Document the results on your GitHub repository](Results.md)  
 3. Exploration: [Icarus Verilog](https://en.wikipedia.org/wiki/Icarus_Verilog)  
 
 ### [Getting Started With VHDL on Windows (GHDL & GTKWave)](https://www.youtube.com/watch?v=H2GyAIYwZbw) by Nerdy Dave
@@ -51,8 +51,6 @@ $ ghdl -e hello_world
 $ ghdl -r hello_world
 Hello world!
 ``` 
-##### Results
-![Hello World Terminal](CPE322Lab01HelloWorld.png)
 
 #### Half [Adder](https://en.wikipedia.org/wiki/Adder_(electronics))
 ```$ ghdl -a ha.vhdl
@@ -62,9 +60,6 @@ $ ghdl -r ha_tb --vcd=ha.vcd
 ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
 $ gtkwave ha.vcd
 ```
-##### Results
-![Half Adder Terminal](CPE322Lab01HalfAdder.png)
-![Half Adder GTKWave](CPE322Lab01HalfAdderGTKWave.png)
 
 #### [Full Adder](http://ghdl.free.fr/ghdl/A-full-adder.html)
 ```sh
@@ -130,3 +125,4 @@ $ ghdl -r --ieee=synopsys sqrt8 --stop-time=512ns > sqrt8.out
 $ cat sqrt8.out
 $ ghdl -r --ieee=synopsys sqrt8 --stop-time=512ns --vcd=sqrt8.vcd
 ```
+
