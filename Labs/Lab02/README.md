@@ -24,7 +24,7 @@ $ rm file2
 $ clear
 $ man uname
 $ uname -a
-$ ifconfig
+$ ipconfig
 $ ping localhost
 $ netstat
 ```
