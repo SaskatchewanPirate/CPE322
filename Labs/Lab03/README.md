@@ -28,3 +28,4 @@ $ py -3.9 cpu.py
 $ py -3.9 battery.py
 $ py -3.9 documentstats.py document.txt
 ```
+### [Lesson 3: Python](lesson3/README.md)
