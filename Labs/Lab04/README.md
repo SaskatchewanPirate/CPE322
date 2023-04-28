@@ -60,6 +60,7 @@
    $ cd ..
    $ cd ..
    $ cd ..
+   $ START HERE
    ```
 5. Start Django REST project "mycpu," run server, and view app
 6. Install [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) if no module named 'flask'
