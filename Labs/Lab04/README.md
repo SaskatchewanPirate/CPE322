@@ -12,7 +12,9 @@
    $ python -m pip install markdown
    $ python -m pip install requests
    ```
-3. Use the default database, i.e., [SQLite](https://en.wikipedia.org/wiki/SQLite)
+3. Use the default database, i.e., [SQLite](https://en.wikipedia.org/wiki/SQLite)  
+   For Windows:
+   - Download [precompiled binaries](sqlite-dll-win64-x64-3410200.zip)
 4. Start Django project "stevens," run server, and view app  
    On Windows running Python 3.9:
    ```sh
