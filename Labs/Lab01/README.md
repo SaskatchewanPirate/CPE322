@@ -34,7 +34,7 @@
 $ git clone https://github.com/kevinwlu/dsd.git
 $ mkdir vhdl
 $ cd vhdl
-$ cp ~/dsd/ghdl/*vhdl .
+$ cp ~/dsd/ghdl/*vhdl
 ```
 * GHDL can run on a Terminal on macOS or GNU/Linux, or on Windows with Windows Terminal, Git Bash, PowerShell, or Command Prompt
   * Apple menu > System Preferences > Security & Privacy > General > Allow ghdl
