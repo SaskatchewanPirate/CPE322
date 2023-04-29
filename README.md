@@ -10,6 +10,7 @@
 *Assignment instructions and submitted group assignments are available [here](Assignments).*  
 
 ### Progress Reports
+[2023-04-29] Completed Lab 5 on Paho-MQTT and documented the [results](Labs/Lab05/Results.md) on GitHub.  
 [2023-04-29] Completed Lab 4 on Django and Flask and documented the [results](Labs/Lab04/Results.md) on GitHub.  
 [2023-04-24] Completed Lab 3 on executing Python files from the terminal and documented the [results](Labs/Lab03/Results.md) on GitHub.  
 [2023-04-24] Completed Lab 2 on using the command line and monitoring the network ports, and documented the [results](Labs/Lab02/Results.md) on GitHub.  
