@@ -2,6 +2,6 @@
 ## CPU Loop Python Code
 ![ThingspeakCPULoopPy](ThingspeakCPULoopPy.png)
 ## Feed Python Code
-![ThingspeakFeedPy](ThingspeakFeedPy.py)
+![ThingspeakFeedPy](ThingspeakFeedPy.png)
 ## Thingspeak cpu-loop Channel
 ![ThingspeakCPULoop](ThingspeakCPULoop.png)
