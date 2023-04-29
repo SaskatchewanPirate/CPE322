@@ -102,10 +102,72 @@
    $ cp ~\iot\lesson4\mycpu\models.py .
    $ cp ~\iot\lesson4\mycpu\views.py .
    $ cp ~\iot\lesson4\mycpu\serializers.py .
-   
-   START HERE
-   $ cd C:\Users\deerf\Documents\CPE322\django\mycpu\myapp
+   $ nano views.py
    ```
+   - The default username is `'admin'`, change this to your desired username
+   - The default password is `'admin'`, change this to your desired password
+   ```sh
+   $ mkdir templates
+   $ cd templates
+   $ mkdir myapp
+   $ cd myapp
+   $ cp ~\iot\lesson4\mycpu\index.html .
+   $ nano index.html
+   ```
+   <!--AIzaSyDOJzFwPTqL7-rkr8cStANlb4cgyBBknvg-->
+   - In the line `<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>` replace `YOUR_API_KEY` with the API key you retrieved
+   ```sh
+   $ cd ..
+   $ cd ..
+   $ mkdir static
+   $ cd static
+   $ cp ~\iot\lesson4\static\favicon.ico .
+   $ mkdir myapp
+   $ cd myapp
+   $ cp ~\iot\lesson4\static\*css .
+   $ cp ~\iot\lesson4\static\*js .
+   $ cd ..
+   $ cd ..
+   $ cd ..
+   $ cp ~\iot\lesson4\mycpu\controller.py .
+   $ nano controller.py
+   ```
+   - The default username is `'admin'`, change this to your desired username
+   - The default password is `'admin'`, change this to your desired password
+   ```sh
+   $ python -m pip install psutil
+   $ py -3.9 manage.py makemigrations myapp
+   $ py -3.9 manage.py migrate
+   $ py -3.9 manage.py createsuperuser
+   ```
+   - In the following menu, make sure your username and password match what you had in the Python files (default: `admin`, `admin`)
+   ```sh
+   Username (leave blank to use 'USER'):
+   Email address: EMAIL_ADDRESS
+   Password: PASSWORD
+   Password (again): PASSWORD
+   Superuser created successfully.
+   $ py -3.9 manage.py runserver
+   ```
+   - Go to http://127.0.0.1:8000/admin
+   - Log in using the username and password specified earlier
+   - Click location data to add location Stevens, Latitude 40.7451, Longitude -74.0255; click Save
+   - Go to http://127.0.0.1:8000/dt and in the HTML form post 2022 to the Dt List
+   - Go to http://127.0.0.1:8000/cpu and in the HTML form post 20 to the Cpu List
+   - Go to http://127.0.0.1:8000/mem and in the HTML form post 20 to the Mem List
+   - Open a separate terminal window, leaving the original still running
+   ```sh
+   $ cd ~\mycpu
+   $ py -3.9 controller.py
+   ```
+   - View app at http://127.0.0.1:8000/home
+   - Return to the first terminal and end the process
+   ```sh
+   $ ipconfig
+   $ py -3.9 manage.py runserver 0.0.0.0:8000
+   ```
+   - Make note of the IPv4 address
+   - On a separate device, visit the site `IPv4_ADDRESS`:8000/home/
 6. Install [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) if no module named 'flask'
 7. Run Flask server via hello_world.py and view app
 ### [Lesson 4: Django and Flask](lesson4/README.md)
