@@ -82,6 +82,30 @@
    - Make note of the IPv4 address
    - On a separate device, visit the site `IPv4_ADDRESS`:8000
 5. Start Django REST project "mycpu," run server, and view app
+   If still on the same Windows Terminal as earlier:
+   ```sh
+   $ cd ..
+   $ python -m pip install urllib3
+   $ django-admin startproject mycpu
+   $ cd mycpu
+   $ py -3.9 manage.py startapp myapp
+   $ cd mycpu
+   $ nano settings.py
+   ```
+   - Change `ALLOWED_HOSTS = []` to `ALLOWED_HOSTS = ['*']`
+   - Add `'myapp',` and `'rest_framework',` to the end of the `INSTALLED_APPS` list
+   ```sh
+   $ cp ~\iot\lesson4\mycpu\urls.py .
+   $ cd ..
+   $ cd myapp
+   $ cp ~\iot\lesson4\mycpu\admin.py .
+   $ cp ~\iot\lesson4\mycpu\models.py .
+   $ cp ~\iot\lesson4\mycpu\views.py .
+   $ cp ~\iot\lesson4\mycpu\serializers.py .
+   
+   START HERE
+   $ cd C:\Users\deerf\Documents\CPE322\django\mycpu\myapp
+   ```
 6. Install [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) if no module named 'flask'
 7. Run Flask server via hello_world.py and view app
 ### [Lesson 4: Django and Flask](lesson4/README.md)
