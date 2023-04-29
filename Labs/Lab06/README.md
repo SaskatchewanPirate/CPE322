@@ -28,4 +28,11 @@
    ```
    - Refresh the webpage at http://127.0.0.1:8080/ or http://localhost:8080/ to see server activities
 3. Install Pystache and run say_hello.py that uses the template in say_hello.mustache
+   ```sh
+   $ python -m pip install pystache
+   $ cd ~/iot/lesson6
+   $ cat say_hello.mustache
+   $ cat say_hello.py
+   $ py -3.9 say_hello.py
+   ```
 ### [Lesson 6: Alternative Devices](lesson6/README.md)
