@@ -2,7 +2,7 @@
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Study the GitHub [repository](https://github.com/kevinwlu/iot) Lesson 7
-2. Sign up and log in MathWorks ThingSpeak
+2. Sign up and log in MathWorks [ThingSpeak](https://thingspeak.com/)
 3. Run thingspeak_cpu_loop.py or thinkspeak_feed.py in a demo folder
 4. Install gspread and oauth2client
 5. Log in the Google Cloud Platform Identity and Access Management, create a project cpudata, enable both Drive API and Sheets API, create and download service account JSON key file
