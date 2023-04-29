@@ -60,8 +60,27 @@
    $ cd ..
    $ cd ..
    $ cd ..
-   $ START HERE
+   $ py -3.9 manage.py makemigrations myapp
+   $ py -3.9 manage.py migrate
+   $ py -3.9 manage.py createsuperuser
+   Username (leave blank to use 'USER'):
+   Email address: EMAIL_ADDRESS
+   Password: PASSWORD
+   Password (again): PASSWORD
+   Superuser created successfully.
+   $ py -3.9 manage.py runserver
    ```
+   - Go to http://127.0.0.1:8000/admin
+   - Log in using the username and password specified earlier
+   - Click temperature data to add date and time in YYYY-MM-DD HH:MM:SS, temperature in Fahrenheit, Latitude 40.7451, and Longitude -74.0255
+   - Save and view app at http://127.0.0.1:8000 ([Check here for help if the page didn't load Google Maps correctly](https://churchthemes.com/page-didnt-load-google-maps-correctly))
+   - Return to terminal and end the process
+   ```sh
+   $ ipconfig
+   $ py -3.9 manage.py runserver 0.0.0.0:8000
+   ```
+   - Make note of the IPv4 address
+   - On a separate device, visit the site `IPv4_ADDRESS`:8000
 5. Start Django REST project "mycpu," run server, and view app
 6. Install [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) if no module named 'flask'
 7. Run Flask server via hello_world.py and view app
