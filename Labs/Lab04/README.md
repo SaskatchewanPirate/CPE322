@@ -175,9 +175,7 @@
 7. Run Flask server via hello_world.py and view app
    If still on the same Windows Terminal as earlier:
    ```sh
-   $ cd ..
-   $ cd iot
-   $ cd lesson4
+   $ cd ~\iot\lesson4
    $ py -3.9 hello_world.py
    ```
    - Go to http://127.0.0.1:5000/
