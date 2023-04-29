@@ -3,13 +3,18 @@
 ### Instructions
 1. Study the GitHub [repository](https://github.com/kevinwlu/iot) Lesson 5 labs
 2. Install Paho-MQTT
-   - On Windows, download [Mosquitto]()
-   - Go to System Properties > Environment Variables > Path > New, and enter C:\Program Files (x86)\mosquitto
+   - On Windows, download and install [Mosquitto](mosquitto-2.0.15-install-windows-x64.exe)
+   - Go to System Properties > Environment Variables > Path > New, and enter C:\Program Files\mosquitto
    - Open a terminal
    ```sh
    $ cd 'C:\Program Files\mosquitto'
    $ net start mosquitto
-   $ mosquitto_sub -h localhost -v -t test/topic &
+   $ .\mosquitto_sub -h localhost -v -t 'test/topic'
+   ```
+   - Open a second terminal
+   ```sh
+   $ cd 'C:\Program Files\mosquitto'
+   $ .\mosquitto_pub -h localhost -t 'test/topic' -m "Hello"
    ```
 3. Change directory to the iot repository
 4. Update the repository with git pull
