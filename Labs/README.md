@@ -1,5 +1,7 @@
 # Labs
-This directory contains instructions and results of labs; the instructions are also available on the lecture slides.
+This directory contains instructions and results of labs; the instructions are also available on the lecture slides.  
+All labs are done on Windows using Powershell in the Windows Terminal app in Administrator mode.  
+The version of Python being used is Python 3.9
 ## Lab Results
 [Lab 1](Lab01/Results.md)  
 [Lab 2](Lab02/Results.md)  
