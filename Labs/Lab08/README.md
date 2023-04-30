@@ -22,7 +22,7 @@
    $ nano plt_cv2.py
    ```
    - Set `X` to `read_csv('cpudata.csv', usecols=[1])`
-   - Set `Y` to `read_csv('cpudata.csv', usecols=[2])`
+   - Set `y` to `read_csv('cpudata.csv', usecols=[2])`
 6. Run plt_final.py and plt_cv2.py
    ```sh
    $ py -3.9 plt_final.py
