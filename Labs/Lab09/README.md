@@ -19,7 +19,7 @@
    - Copy this path, which will be called `C:\PATH_TO_PYANG\` for the rest of this tutorial
    - The `cat` lines will show an error if you do not do this correctly
    ```sh
-   $  py -3.9 C:\PATH_TO_PYANG\pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
+   $ py -3.9 C:\PATH_TO_PYANG\pyang -f yin -o intrusiondetection.yin intrusiondetection.yang
    $ cat intrusiondetection.yin
    $ py -3.9 C:\PATH_TO_PYANG\pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef
    $ cat intrusiondetection.uml
