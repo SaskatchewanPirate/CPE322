@@ -1,5 +1,5 @@
 # plt_final
-##
+## Time series, CPU usage and memory availability
 ![Figure 1](Figure_1.png)
 ## Histogram of CPU usage
 ![Figure 2](Figure_2.png)
