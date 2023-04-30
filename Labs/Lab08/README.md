@@ -18,11 +18,16 @@
    $ nano plt_final.py
    ```
    - Set `data` to `read_csv('cpudata.csv')`
+   - Set `y` to `data['Memory Available GB']`
+   - Change `plt.plot(y, 'r', lw=2, label='Temperature C')` to `plt.plot(y, 'r', lw=2, label='Memory Available GB')`
+   - Change `plt.xlabel('Temperature C')` to `plt.xlabel('Memory Available GB')`
+   - Change both instances of `plt.ylabel('Temperature C')` to `plt.ylabel('Memory Available GB')`
    ```sh
    $ nano plt_cv2.py
    ```
    - Set `X` to `read_csv('cpudata.csv', usecols=[1])`
    - Set `y` to `read_csv('cpudata.csv', usecols=[2])`
+   - Change `plt.xlabel('Temperature C')` to `plt.xlabel('Memory Available GB')`
 6. Run plt_final.py and plt_cv2.py
    ```sh
    $ py -3.9 plt_final.py
