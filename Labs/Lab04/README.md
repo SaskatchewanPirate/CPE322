@@ -134,6 +134,7 @@
    ```
    - The default username is `'admin'`, change this to your desired username
    - The default password is `'admin'`, change this to your desired password
+   - MAKE SURE THIS CORRESPONDS TO THE LOGIN CREDENTIALS IN `views.py`
    ```sh
    $ python -m pip install psutil
    $ py -3.9 manage.py makemigrations myapp
