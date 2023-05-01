@@ -33,7 +33,7 @@
    ```
 6. Start a new Google sheet cpudata, share it with the client email in the JSON file, delete Rows 2 to 1000, and edit the header cells
    - The line with the client email is highlighted in the image below
-   ![Client Email](clientemail.png)
+   ![Client Email](ClientEmail.png)
    - Enter `Date / Time`, `CPU Usage %`, `Memory Available GB` to header cells
 7. Run cpu_spreadsheet.py with the JSON key file in a demo folder
    ```sh
