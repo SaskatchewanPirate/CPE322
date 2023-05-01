@@ -1,4 +1,5 @@
 # Lab 8: Data Analysis
+### [Results](Results.md)
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Study the GitHub [repository](https://github.com/kevinwlu/iot) Lesson 8
