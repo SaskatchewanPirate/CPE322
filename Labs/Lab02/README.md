@@ -1,4 +1,5 @@
 # Lab 2: Command Line
+### [Results](Results.md)
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Go to the IoT [repository](https://github.com/kevinwlu/iot)
