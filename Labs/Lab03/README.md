@@ -1,4 +1,5 @@
 # Lab 3: Python
+### [Results](Results.md)
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Study the GitHub repository Lesson 3 labs
