@@ -1,4 +1,5 @@
 # Lab 1: GHDL and GTKWave
+### [Results](Results.md)
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Go to the [GitHub repository](https://github.com/kevinwlu/dsd) of Digital System Design (DSD)  
