@@ -25,24 +25,28 @@
    ```
    - Terminal 2: Create a transaction and mine a new block at http://127.0.0.1:5000/mine
    ```sh
-   $ curl http://localhost:5000/txion -H @{"Content-Type"="application/json"} -body @{"from"="akjflw"; "to"="fjlakdj"; "amount"=3}
-   $ curl localhost:5000/mine
+   $ Invoke-RestMethod "http://localhost:5000/txion" -ContentType 'application/json' -Method Post -Body '{"from": "akjflw", "to":"fjlakdj", "amount": 3}'
+   $ Invoke-RestMethod "http://localhost:5000/mine"
    ```
 5. Clone Python blockchain app and uncomment the last line of node_server.py
-   - Terminal 1: Uncomment the last line of node_server.py (or search for port=8000) and run (Press Ctrl+C to quit)
+   - Uncomment the last line of node_server.py (remove the `#` at the beginning of the line)
    ```sh
    $ git clone https://github.com/satwikkansal/python_blockchain_app.git
    $ cd ~/python_blockchain_app
    $ nano node_server.py
+   ```
+6. Run node_server.py on Terminal 1 and run_app.py on Terminal 2
+   - Terminal 1: Run node_server.py (Press Ctrl+C to quit)
+   ```sh
    $ py -3.9 node_server.py
    ```
    - Terminal 2: Run run_app.py (Press Ctrl+C to quit)
    ```sh
-   $ vncserver
    $ cd ~/python_blockchain_app
-   $ python3 run_app.py
+   $ py -3.9 run_app.py
    ```
-6. Run node_server.py on Terminal 1 and run_app.py on Terminal 2
-   ```sh
-   ```
+   - Go to YourNet running at http://127.0.0.1:5000/
+   - Enter `Block #1` into the box, enter your name where indicated, click "Post" and then "Request to mine"
+   - Navigate to http://127.0.0.1:8000/mine to see "Block #1 is mined"
+   - At YourNet, click "Resync" to view Block #1
 ### [Lesson 10: Blockchain](lesson10/README.md)
