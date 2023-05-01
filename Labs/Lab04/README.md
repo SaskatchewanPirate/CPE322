@@ -23,8 +23,6 @@
    $ django-admin startproject stevens
    $ cd stevens
    $ py -3.9 manage.py startapp myapp
-   $ sqlite3 stevens.db
-   sqlite> .quit
    $ cd stevens
    $ nano settings.py
    ```
