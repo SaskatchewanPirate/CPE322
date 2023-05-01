@@ -9,7 +9,7 @@
    ```sh
    $ npm install -g node-gyp
    ```
-   - Install [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+   - Install [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools) (recommended but might not be necessary)
    - Configure the Python dependency: Edit Environment Variables > New > Name: `PYTHON`, Value: `~\Python\Python39\`
    ```sh
    $ node -v
