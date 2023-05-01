@@ -10,17 +10,17 @@
 *Assignment instructions and submitted group assignments are available [here](Assignments).*  
 
 ### Progress Reports
-[2023-04-30] Completed Lab 10 on the Blockchain and documented the [results](Labs/Lab10/Results.md) on GitHub.  
-[2023-04-30] Completed Lab 9 on YANG and documented the [results](Labs/Lab09/Results.md) on GitHub.  
-[2023-04-30] Completed Lab 8 on Data Analysis and documented the [results](Labs/Lab08/Results.md) on GitHub.  
-[2023-04-29] Completed Lab 7 on Thingspeak and Google Sheets API and documented the [results](Labs/Lab07/Results.md) on GitHub.  
-[2023-04-29] Completed Lab 6 on Node.js and Pystache and documented the [results](Labs/Lab06/Results.md) on GitHub.  
-[2023-04-29] Completed Lab 5 on Paho-MQTT and documented the [results](Labs/Lab05/Results.md) on GitHub.  
-[2023-04-29] Completed Lab 4 on Django and Flask and documented the [results](Labs/Lab04/Results.md) on GitHub.  
-[2023-04-24] Completed Lab 3 on executing Python files from the terminal and documented the [results](Labs/Lab03/Results.md) on GitHub.  
-[2023-04-24] Completed Lab 2 on using the command line and monitoring the network ports, and documented the [results](Labs/Lab02/Results.md) on GitHub.  
-[2023-04-24] Completed Lab 1 on running several example files using GHDL and GTKWave and documented the [results](Labs/Lab01/Results.md) on GitHub.  
-[2023-01-25] Completed Assignment 0 on creating a GitHub [repository](https://github.com/SaskatchewanPirate/CPE322/tree/main) and creating and stylizing a [README.md](README.md) file using Markdown.  
+[2023-04-30] Completed [Lab 10](Labs/Lab10) on the Blockchain and documented the [results](Labs/Lab10/Results.md) on GitHub.  
+[2023-04-30] Completed [Lab 9](Labs/Lab09) on YANG and documented the [results](Labs/Lab09/Results.md) on GitHub.  
+[2023-04-30] Completed [Lab 8](Labs/Lab08) on Data Analysis and documented the [results](Labs/Lab08/Results.md) on GitHub.  
+[2023-04-29] Completed [Lab 7](Labs/Lab07) on Thingspeak and Google Sheets API and documented the [results](Labs/Lab07/Results.md) on GitHub.  
+[2023-04-29] Completed [Lab 6](Labs/Lab06) on Node.js and Pystache and documented the [results](Labs/Lab06/Results.md) on GitHub.  
+[2023-04-29] Completed [Lab 5](Labs/Lab05) on Paho-MQTT and documented the [results](Labs/Lab05/Results.md) on GitHub.  
+[2023-04-29] Completed [Lab 4](Labs/Lab04) on Django and Flask and documented the [results](Labs/Lab04/Results.md) on GitHub.  
+[2023-04-24] Completed [Lab 3](Labs/Lab03) on executing Python files from the terminal and documented the [results](Labs/Lab03/Results.md) on GitHub.  
+[2023-04-24] Completed [Lab 2](Labs/Lab02) on using the command line and monitoring the network ports, and documented the [results](Labs/Lab02/Results.md) on GitHub.  
+[2023-04-24] Completed [Lab 1](Labs/Lab1) on running several example files using GHDL and GTKWave and documented the [results](Labs/Lab01/Results.md) on GitHub.  
+[2023-01-25] Completed [Assignment 0](Assignments/Assignment00) on creating a GitHub [repository](https://github.com/SaskatchewanPirate/CPE322/tree/main) and creating and stylizing a [README.md](README.md) file using Markdown.  
 
 ### Course Schedule
 [2023-01-23] [Lesson 0: Syllabus](Lectures/Lesson00)  
