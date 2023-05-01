@@ -1,4 +1,5 @@
 # Lab 4: Django and Flask
+### [Results](Results.md)
 ## From Prof. Lu's GitHub Repo:
 ### Instructions
 1. Study the GitHub [repository](https://github.com/kevinwlu/iot) Lesson 4 labs
