@@ -25,7 +25,7 @@
    ```
    - Terminal 2: Create a transaction and mine a new block at http://127.0.0.1:5000/mine
    ```sh
-   $ curl "localhost:5000/txion" -H "Content-Type: application/json" -d '{"from": "akjflw", "to":"fjlakdj", "amount": 3}'
+   $ curl http://localhost:5000/txion -H @{"Content-Type"="application/json"} -body @{"from"="akjflw"; "to"="fjlakdj"; "amount"=3}
    $ curl localhost:5000/mine
    ```
 5. Clone Python blockchain app and uncomment the last line of node_server.py
