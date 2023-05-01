@@ -21,7 +21,6 @@
    ```sh
    $ cat snakecoin-server-full-code.py
    $ py -3.9 snakecoin-server-full-code.py
-   $ cd
    ```
    - Terminal 2: Create a transaction and mine a new block at http://127.0.0.1:5000/mine
    ```sh
