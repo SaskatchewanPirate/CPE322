@@ -96,6 +96,7 @@ $ ghdl -a --ieee=synopsys sr_ff.vhdl
 $ ghdl -a --ieee=synopsys sr_ff_tb.vhdl
 $ ghdl -e --ieee=synopsys sr_ff_tb
 $ ghdl -r --ieee=synopsys sr_ff_tb --stop-time=100ns --vcd=sr_ff.vcd
+$ gtkwave sr_ff.vcd
 ```
 
 #### [Multiplexer:](https://en.wikipedia.org/wiki/Multiplexer)
@@ -124,5 +125,6 @@ $ ghdl -e --ieee=synopsys sqrt8
 $ ghdl -r --ieee=synopsys sqrt8 --stop-time=512ns > sqrt8.out
 $ cat sqrt8.out
 $ ghdl -r --ieee=synopsys sqrt8 --stop-time=512ns --vcd=sqrt8.vcd
+$ gtkwave sqrt8.vcd
 ```
 
